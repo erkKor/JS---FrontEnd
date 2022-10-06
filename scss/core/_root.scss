@@ -11,6 +11,7 @@ margin: 0;
 }
 .container{
     margin: 1rem;
+    
 }
 
 .button-theme{
@@ -22,11 +23,19 @@ margin: 0;
     font-weight:bold;
     color: white;
     cursor: pointer;
+
+    &:hover{
+        .button-theme-border::before,.button-theme-border::after{
+            width: 91%;
+            height: 73%;
+        }
+    }
     .button-theme-border::before,.button-theme-border::after{
         position: absolute;
         content: '';
         width: 20px;
         height: 20px;
+        transition: 0.3s linear;
     }
     .button-theme-border::before{
         left:7px;

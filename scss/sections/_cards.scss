@@ -1,0 +1,63 @@
+.card{
+    margin-top:1rem;
+    margin-left: 10rem;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    background-color: blanchedalmond;
+    
+    .card-menu{
+        position: absolute;
+        right:10px;
+        margin: 0;
+        z-index: 1;
+        a{
+            background-color: white;
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+            margin: 0.5rem 0;
+            color:$color-dark;
+        }
+        li{
+            list-style: none;
+        }
+    }
+
+    .card-background{
+        background-color: $color-gray-10;
+        height: 200px;
+        position: relative;
+        .button-theme{
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+            height: 50px;
+        }
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3,p{
+            margin: 0;
+        }
+        .stars{
+            color:$color-theme;
+        }
+        .card-prices{
+            display: flex;
+            .original-price{
+                margin-right: 1rem;
+                text-decoration: line-through;
+                color: $color-gray-10;
+            }
+        }
+    }
+}
