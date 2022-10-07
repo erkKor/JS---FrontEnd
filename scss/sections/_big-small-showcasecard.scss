@@ -1,4 +1,4 @@
-.bigcard-smallcard{
+.big-small-showcasecard{
     margin-top: 4rem;
     width: 100%;
     .container{
@@ -8,11 +8,12 @@
     
     .big-card{
         background-image: url(/images/placeholders/light-brown-ph.png);
+        background-size: 100% 100%;
         width: 1045px;
         display: flex;
         flex-direction: column;
         justify-content:center;
-        padding-left: 4rem;
+        
         
         p{
             max-width: 450px;
@@ -22,6 +23,7 @@
 
     .small-card{
         background-image: url(/images/placeholders/standing-guy.png);
+        background-size: 100% 100%;
         width: 635px;
         display: flex;
         flex-direction: column;
@@ -41,9 +43,5 @@
     }
     span{
         display: block;
-    }
-
-    .redbar{
-        background-color: red;
     }
 }
