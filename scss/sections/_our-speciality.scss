@@ -1,25 +1,63 @@
 .our-speciality{
+    margin-top: 2rem;
     .container{
-        
-        background-color: $color-gray-1;
+        background-color: $color-gray-0;
         height: 400px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 3rem;
-
-        .wide-card{
-            height: 200px;
-            width:400px;
-            background-color: rosybrown;
+        
+        .section-title{
             display: flex;
-            .card-content{
-                width: 200px;
+            justify-content: center;
+            padding-top: 2rem;
+        }
+        .wide-cards{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 3rem;
+            .wide-card{
+                height: 230px;
+                width:490px;
+                background-color: white;
+                display: flex;
+                margin: 0 1rem;
+                .card-content{
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-left: 2rem;            
+                }
+                .gray-square{
+                    width: 200px;
+                    height: 100%;
+                    background-color: $color-gray-10;
+        
+                }
             }
-            .gray-square{
-                width: 200px;
-                height: 200px;
-                background-color: $color-gray-20;
+        }
+       
+
+        h3{
+            font-size: 20px;
+        }
+        a{
+            position: relative;
+            color:$color-dark;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 1px solid black;
+            
+            &::after{
+                content: '';
+                position: absolute;
+                background-color: white;
+                width:95px;
+                height: 1px;
+                bottom: -1px;
+                right: 0;
+            }
+            i{
+                font-size: 12px;
             }
         }
     }
