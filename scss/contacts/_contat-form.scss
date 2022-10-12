@@ -1,0 +1,21 @@
+.contact-form{
+    .container{
+        max-width: 1110px;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: 1r 1fr;
+        gap:40px;
+
+        input{
+            height: 50px;
+        }
+        .textarea{
+            
+            grid-column: 3 / -1;
+        }
+    }
+
+
+}
