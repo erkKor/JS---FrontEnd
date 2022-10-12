@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
     $color-theme:#FF7373;
     $color-theme-dark:#d63535;
     $color-white:#FFFFFF;
-    $color-dark:#23262A;
+    $color-dark:#222529;
     $color-light-brown:#CAC0BE;
     $color-dark-brown:#75695C;
     $color-gray-0:#F5F5F5;
@@ -40,3 +40,5 @@
     $breakpoint-xl-max-width: 1140px;
     $breakpoint-xxl: 1400px;
     $breakpoint-xxl-max-width: 1320px;
+    $breakpoint-ul: 1600px;
+    $breakpoint-xxl-max-width: 1680px;

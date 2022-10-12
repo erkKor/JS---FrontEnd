@@ -1,22 +1,31 @@
-.header{
-    background-color:$color-gray-1;
+header{
     padding: 0.5rem 0;
+    &.header-gray{
+        background: rgb(230,230,230);
+        background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 100%);
+    }
+    &.header-light{
+        background-color: white;
+    }
     
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
 
         .brand{
             font-size: $font-size-24;
         }
-    
+        .menu-categories{
+            .active{
+                color: $color-theme;
+            }
+        }
         .icon-links{
             display: flex;
             align-items: center;
-
             a{
+                position: relative;
                 background-color: white;
                 height: 36px;
                 width: 36px;
@@ -38,6 +47,7 @@
         &:hover{
             color:$color-theme;
         }
+        
     }
 }
 

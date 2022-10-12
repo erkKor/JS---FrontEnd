@@ -28,4 +28,10 @@
     }
 }
 
+@mixin ul {
+    @media (min-width: #{$breakpoint-ul}) {
+        @content
+    }
+}
+
 

@@ -1,7 +1,12 @@
 .showcase{
-    background-color:$color-gray-1;
-    display: flex;
-    align-items: center;
+    // background-color:$color-gray-1;
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 100%);
+    
+    .container{
+        display: flex;
+        align-items: center;
+    }
 
     .showcase-text{
         display: flex;
@@ -25,8 +30,13 @@
         }
     }
 
-    img{
-        width: 30%;
+    .img1{
+       margin-left:-120px;
     }
+    .img2{
+       margin-right:-120px;
+    }
+
+
 
 }
